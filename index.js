@@ -8,5 +8,5 @@ web.use('/', function (req, res) {
     res.send({message: 'hi'})
 });
 
-web.listen(3000);
+web.listen(process.env.PORT || 3000);
 

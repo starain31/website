@@ -8,7 +8,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "node-version" : "node -v",
+    "node-version": "node -v",
     "start": "node index.js",
     "test": "jest"
   },
