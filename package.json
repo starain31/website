@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "node-version" : "node -v",
+    "start": "node index.js",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^26.0.1"
+    "express": "^4.17.1"
   }
 }
