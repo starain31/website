@@ -2,7 +2,7 @@ import express from 'express';
 
 const web = express();
 
-web.use(express.static('./'));
+web.use(express.static('./public'));
 
 web.use('/', function (req, res) {
     res.send({message: 'hi'})
